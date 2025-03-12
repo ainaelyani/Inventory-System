@@ -12,7 +12,7 @@ $result = mysqli_query($conn, $sql);
 
             <div class="row">
                 <div class="col-12 mb-3 text-end">
-                    <a href="/inventory-system/category_in.php" class="btn btn-success text-white ">Add Category</a>
+                    <a href="/inventory-system/category_in.php" class="btn btn-success text-white ">+Add Category</a>
                 </div>
                 <div class="col-12">
                     <div class="card mb-4">
