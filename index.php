@@ -18,7 +18,7 @@ if(isset($_SESSION['user_id'])){   //if user currently log in
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     </head>
-    <body class="bg-primary">
+    <body style="background-color:#15a160cf;">
         <div id="layoutAuthentication">
             <div id="layoutAuthentication_content">
                 <main>
@@ -37,7 +37,7 @@ if(isset($_SESSION['user_id'])){   //if user currently log in
                                                 <input class="form-control" id="inputPassword" type="password" name="password" placeholder="Password" />
                                                 <label for="inputPassword">Password</label>
                                             </div>
-                                            <button type="submit" class="btn btn-primary form-control mt-3">Log In</button>
+                                            <button type="submit" class="btn form-control mt-3" style="background-color: #124418e8; color: white;">Log In</button>
                                         </form>
                                     </div>
                                 </div>
